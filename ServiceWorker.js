@@ -1,9 +1,9 @@
 const cacheName = "Blackyee-NextXR_InterviewTask-0.1";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/NextXR_task.loader.js",
+    "Build/NextXR_task.framework.js",
+    "Build/NextXR_task.data",
+    "Build/NextXR_task.wasm",
     "TemplateData/style.css"
 
 ];
