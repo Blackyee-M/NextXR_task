@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Unity WebGL Player | NextXR_InterviewTask</title>
+    <!-- Tittle for the Apllication-->
+    <title>WebXR Furniture</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -26,8 +27,9 @@
     <div id="startARDiv" class="ctaDiv" style="background: #2f2e32">
       <select id="chooseCamSel" style="visibility: hidden; background: transparent; border: .05vh solid white; border-radius: max(0.5vw, 0.5vh); color:white; font-size: max(1.5vw, 1.5vh); position: absolute; bottom: 80px" 
         onchange="SelectCam()"></select>
-      <p style="text-align: center; width:min(60vw, 60vh);">This augmented reality experience requires access to your device's camera and motion sensors</p>
-      <button id="startARButton" onclick="StartAR()" style="visibility: hidden">ALLOW ACCESS</button>
+        <!--Webpage Contents-->
+      <p style="text-align: center; width:min(60vw, 60vh);">This augmented reality experience requires access to your device's camera and motion sensors,<br> so please grant permission for the camera access</p>
+      <button id="startARButton" onclick="StartAR()" style="visibility: hidden">Start</button>
       <br><br><br>
     </div>
     <div id="screenshotDiv" style="visibility: hidden; opacity: 0;" class="ctaDiv">
